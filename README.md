@@ -1,5 +1,9 @@
-## Here's my top languages
+## Welcome to my profile :D
+### Here's my stats
 
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=tig-github&hide=stars&count_private=true&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
+
+### And most used languages
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=tig-github&theme=tokyonight)
 
 
