@@ -1,10 +1,8 @@
-### Hi there 👋
+## Here's my top languages
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=tig-github&theme=tokyonight)
 
 
-
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=myusername&theme=tig-github)
-Just testing right now :)
 
 <!--
 **tig-github/tig-github** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
