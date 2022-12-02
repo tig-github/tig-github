@@ -1,12 +1,19 @@
-## Welcome to my profile :D
-### Here's my stats
+<h1 align="center"> Welcome </h1>
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=tig-github&hide=stars&count_private=true&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
+<div align="center">
+  <img src="https://i0.wp.com/www.alittlebithuman.com/wp-content/uploads/2021/06/pai-sho-uncle-iroh.jpg?resize=1170%2C700&ssl=1" width=500rem height=auto></img>
+</div>
+<p align="center"> Why don't you enjoy a nice green tea </p>
+<p align="center"> While you're here, here's my stats </p>
+<br>
 
-### And most used languages
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=tig-github&theme=tokyonight)
 
-
+<div align="center">
+  <div style="display: flex;">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tig-github&theme=tokyonight" />
+    <img src="https://github-readme-stats.vercel.app/api?username=tig-github&hide=stars&count_private=true&theme=tokyonight" style="vertical-align: top;" />
+  </div>
+</div>
 
 <!--
 **tig-github/tig-github** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
