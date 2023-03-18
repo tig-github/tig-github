@@ -7,6 +7,8 @@ import {
   Tab,
   TabPanels,
   TabPanel,
+  Heading,
+  Stack,
 } from "@chakra-ui/react";
 import ListField from "../components/ListField";
 
@@ -31,67 +33,99 @@ const Courses = () => {
     "190 Deep Learning for Medical Imaging": "This class was very insightful",
   };
   const csPlannedCourses = {
-    "CS 143A Operating Systems": "This class should be very useful",
+    "CS 112 Computer Graphics":
+      "Taking computational geometry made me interested in this class",
     "CS 142A Compilers": "This class is also very important",
+    "CS 142B Language Process Construction":
+      "Project is to build a java bytecode compiler which sounds super cool",
+    "CS 143A Operating Systems": "This class should be very useful",
+    "CS 146 Programming in Multitasking Operating Systems":
+      "Good way to learn more about UNIX and bash",
+    "CS 163 Graph Algorithms":
+      "Graphs are some of the most important data structures with huge applications",
+    "CS 166 Quantum Computing":
+      "Sounds fun and could maybe even be a bit of future proofing",
+    "CS 177 Applications of Probability in Computer Science":
+      "Probability frequently appears in algorithmic analysis and in many cutting edge techniques",
   };
-  const infPlannedCourses = {
+  const inf10x = {
+    "INF 101 Programming Languages": "Overlaps with CS141",
     "INF 102 Concepts of Programming Languages II":
       "Will take this next quarter",
+  };
+  const infPlannedCourses = {
     "INF 113 Requirements Analysis and Engineering":
       "Might take this course at some point",
     "INF 115 Software Testing, Analysis, and Quality Insurance": "Seems useful",
+    "INF 122 Software Design II": "Design patterns seem important to learn",
+    "INF 131 Human Computer Interaction":
+      "Might take this course at some point",
   };
   return (
-    <Box bg="#2C1B47" w="100%" h="calc(100vh)">
-      <Text color="white">
-        Courses at UCI are generally oragnized by their assigned numbers.
-      </Text>
-      <Tabs>
-        <TabList>
-          <Tab>
-            <Text color="white">12X Information</Text>
-          </Tab>
-          <Tab>
-            <Text color="white">14X Systems and Software</Text>
-          </Tab>
-          <Tab>
-            <Text color="white">16X Algorithms</Text>
-          </Tab>
-          <Tab>
-            <Text color="white"> 17X Artificial Intelligence </Text>
-          </Tab>
-          <Tab>
-            <Text color="white"> Planned Courses </Text>
-          </Tab>
-        </TabList>
-        <TabPanels>
-          <TabPanel>
-            <ListField items={cs12x} />
-          </TabPanel>
-          <TabPanel>
-            <ListField items={cs14x} />
-          </TabPanel>
-          <TabPanel>
-            <ListField items={cs16x} />
-          </TabPanel>
-          <TabPanel>
-            <ListField items={cs17x} />
-          </TabPanel>
-          <TabPanel>
-            <ListField items={csPlannedCourses} />
-          </TabPanel>
-        </TabPanels>
-      </Tabs>
-      <Tabs>
-        <TabList>
-          <Tab>Planned Courses</Tab>
-        </TabList>
-        <TabPanels>
-          <TabPanel>
-            <ListField items={infPlannedCourses} />
-          </TabPanel>
-        </TabPanels>
-      </Tabs>
+    <Box bg="#2C1B47" w="100%" h="100%">
+      <Stack align="center" spacing={8}>
+        <Heading sz="md" mt="2rem">
+          <Text color="white">Courses</Text>
+        </Heading>
+        <Text color="white">
+          Courses at UCI are generally oragnized by their assigned numbers.
+        </Text>
+        <Tabs>
+          <TabList>
+            <Tab>
+              <Text color="white">12X Information</Text>
+            </Tab>
+            <Tab>
+              <Text color="white">14X Systems and Software</Text>
+            </Tab>
+            <Tab>
+              <Text color="white">16X Algorithms</Text>
+            </Tab>
+            <Tab>
+              <Text color="white"> 17X Artificial Intelligence </Text>
+            </Tab>
+            <Tab>
+              <Text color="white"> Planned Courses </Text>
+            </Tab>
+          </TabList>
+          <TabPanels>
+            <TabPanel>
+              <ListField items={cs12x} />
+            </TabPanel>
+            <TabPanel>
+              <ListField items={cs14x} />
+            </TabPanel>
+            <TabPanel>
+              <ListField items={cs16x} />
+            </TabPanel>
+            <TabPanel>
+              <ListField items={cs17x} />
+            </TabPanel>
+            <TabPanel>
+              <ListField items={csPlannedCourses} />
+            </TabPanel>
+          </TabPanels>
+        </Tabs>
+        <Tabs>
+          <TabList>
+            <Tab>
+              <Text color="white">10X</Text>
+            </Tab>
+            <Tab>
+              <Text color="white">Planned Courses</Text>
+            </Tab>
+          </TabList>
+          <TabPanels>
+            <TabPanel>
+              <ListField items={inf10x} />
+            </TabPanel>
+            <TabPanel>
+              <ListField items={infPlannedCourses} />
+            </TabPanel>
+          </TabPanels>
+        </Tabs>
+        <Box bg="#2C1B47" w="10rem" h="10rem"></Box>
+      </Stack>
     </Box>
   );
 };

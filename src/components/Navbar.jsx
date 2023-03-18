@@ -1,5 +1,6 @@
 import React from "react";
-import { Box, Flex, Button, ButtonGroup, Spacer } from "@chakra-ui/react";
+import { Box, Flex, Button, ButtonGroup, Link, Spacer } from "@chakra-ui/react";
+import { Link as RouterLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -7,20 +8,28 @@ const Navbar = () => {
       <Box bg="#724C9D" w="100%" p={4}>
         <Flex align="left">
           <ButtonGroup gap="3">
-            <Button colorScheme="purple" size="lg">
-              Home
-            </Button>
-            <Button colorScheme="purple" size="lg">
-              Projects
-            </Button>
-            <Button colorScheme="purple" size="lg">
-              Courses
-            </Button>
+            <Link as={RouterLink} to="/">
+              <Button colorScheme="blackAlpha" size="lg">
+                Home
+              </Button>
+            </Link>
+            <Link as={RouterLink} to="/projects">
+              <Button colorScheme="blackAlpha" size="lg">
+                Projects
+              </Button>
+            </Link>
+            <Link as={RouterLink} to="/courses">
+              <Button colorScheme="blackAlpha" size="lg">
+                Courses
+              </Button>
+            </Link>
           </ButtonGroup>
           <Spacer />
-          <Button colorScheme="purple" size="lg">
-            ♫
-          </Button>
+          <Link as={RouterLink} to="/focus">
+            <Button colorScheme="blackAlpha" size="lg">
+              ⧖
+            </Button>
+          </Link>
         </Flex>
       </Box>
     </>
