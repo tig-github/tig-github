@@ -41,6 +41,8 @@ const Courses = () => {
     "CS 143A Operating Systems": "This class should be very useful",
     "CS 146 Programming in Multitasking Operating Systems":
       "Good way to learn more about UNIX and bash",
+    "CS 152 Computer Systems Architecture":
+      "I am interested in gaining more knowledge of low level system design",
     "CS 163 Graph Algorithms":
       "Graphs are some of the most important data structures with huge applications",
     "CS 166 Quantum Computing":
@@ -68,7 +70,9 @@ const Courses = () => {
           <Text color="white">Courses</Text>
         </Heading>
         <Text color="white">
-          Courses at UCI are generally oragnized by their assigned numbers.
+          Courses at UCI are generally oragnized by their assigned numbers. The
+          following are the upper division courses I have taken, and the ones I
+          plan to take.
         </Text>
         <Tabs>
           <TabList>
@@ -109,7 +113,7 @@ const Courses = () => {
         <Tabs>
           <TabList>
             <Tab>
-              <Text color="white">10X</Text>
+              <Text color="white">10X Programming Languages</Text>
             </Tab>
             <Tab>
               <Text color="white">Planned Courses</Text>

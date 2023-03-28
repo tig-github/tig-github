@@ -17,16 +17,14 @@ import {
 // optionally includes tablist
 const ListField = (items) => {
   return (
-    <Box bg="#DCCAE9" w="100%">
-      <List spacing={4}>
+    <Box bg="#DCCAE9">
+      <List spacing={4} pt="1rem" pl="1rem" pb="1rem" pr="1rem">
         {Object.keys(items["items"]).map((k) => {
           return (
             <ListItem>
               <Stack direction="column">
-                <Container ml=".5rem" mb="1rem" mt="1rem" w="100%">
-                  <Heading size="sm">{k}</Heading>
-                  <Text w="100%"> {items["items"][k]} </Text>
-                </Container>
+                <Heading size="sm">{k}</Heading>
+                <Text w="100%"> {items["items"][k]} </Text>
               </Stack>
             </ListItem>
           );
