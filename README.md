@@ -11,7 +11,6 @@
 <div align="center">
   <div style="display: flex;">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tig-github&theme=tokyonight" />
-    <img src="https://github-readme-stats.vercel.app/api?username=tig-github&hide=stars&count_private=true&theme=tokyonight" style="vertical-align: top;" />
   </div>
 </div>
 
