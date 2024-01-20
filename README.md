@@ -11,11 +11,11 @@
 <div align="center">
   <div style="display: flex;">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tig-github&theme=tokyonight" />
+    <img src="https://github-readme-stats.vercel.app/api?username=tig-github&rank_icon=github&theme=tokyonight" />
   </div>
 </div>
 
 <!--
-<img src="https://github-readme-stats.vercel.app/api?username=tig-github" />
 
 **tig-github/tig-github** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
