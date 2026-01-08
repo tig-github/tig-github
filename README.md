@@ -4,6 +4,9 @@
   <img src="https://i0.wp.com/www.alittlebithuman.com/wp-content/uploads/2021/06/pai-sho-uncle-iroh.jpg?resize=1170%2C700&ssl=1" width=500rem height=auto></img>
 </div>
 <p align="center"> Why don't you enjoy a nice green tea </p>
+
+<!--
+
 <p align="center"> While you're here, here's my stats </p>
 <br>
 
@@ -16,7 +19,6 @@
   </div>
 </div>
 
-<!--
 
 **tig-github/tig-github** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
